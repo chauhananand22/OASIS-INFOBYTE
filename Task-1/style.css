@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 3rem;
+    margin-left: 4rem;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+    margin-left: 25%;
+}
+
+header li a {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    gap: 2rem;
+}
+
+.instagram {
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.mail {
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.whatsapp {
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.hero-about {
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.hero-about img {
+    width: 100%;
+    filter: blur(2px);
+}
+
+.h1-1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 4rem;
+    width: 40%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.h1-2 {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    font-size: 4rem;
+    width: 40%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.p1 {
+    width: 30%;
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.p2 {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.p3 {
+    width: 30%;
+    position: absolute;
+    top: 42%;
+    left: 7.5%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-1 {
+    border-color: #FBDC52;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #FBDC52;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* DURABILIDADE */
+
+.durabilidade-about img {
+    margin-top: 0;
+    margin-bottom: -10px;
+    width: 100%;
+}
+
+.h1 {
+    position: absolute;
+    color: #ffffff;
+    top: 150%;
+    left: 65%;
+    font-size: 2.5rem;
+}
+
+.p4 {
+    position: absolute;
+    color: #ffffff;
+    top: 160%;
+    left: 65%;
+    font-size: 14px;
+}
+
+.p5 {
+    position: absolute;
+    color: #ffffff;
+    top: 162%;
+    left: 65%;
+    font-size: 14px;
+}
+
+.p6 {
+    position: absolute;
+    color: #ffffff;
+    top: 164%;
+    left: 65%;
+    font-size: 14px;
+}
+
+.btn-2 {
+    position: absolute;
+    padding: 5px 14px;
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    top: 170%;
+    left: 65%;
+    font-size: 14px;
+}
+
+
+/* DESIGN */
+
+.design-about img {
+    margin-top: 0;
+    width: 1473px;
+    height: 400px;
+    margin-bottom: -10px;
+}
+
+.design-h1 {
+    position: absolute;
+    color: #ffffff;
+    top: 205%;
+    left: 10%;
+    font-size: 2.5rem;
+}
+
+.design-p1 {
+    position: absolute;
+    color: #ffffff;
+    top: 215%;
+    left: 10%;
+    font-size: 14px;
+}
+
+.design-p2 {
+    position: absolute;
+    color: #ffffff;
+    top: 217%;
+    left: 10%;
+    font-size: 14px;
+}
+
+.design-p3 {
+    position: absolute;
+    color: #ffffff;
+    top: 219%;
+    left: 10%;
+    font-size: 14px;
+}
+
+.btn-3 {
+    position: absolute;
+    padding: 5px 14px;
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    top: 225%;
+    left: 10%;
+    font-size: 14px;
+}
+
+
+/* CONTACT US */
+
+.container_con {
+    display: block;
+}
+
+.card_title2 {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 12px;
+    margin-right: 0px;
+    margin-left: 44%;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #000;
+    margin-top: -7px;
+    margin-left: -6px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 150px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.logo1 a {
+    text-decoration: none;
+    color: #F1DECD;
+}
+
+.Whatsapp {
+    margin-right: 10px;
+}
+
+.Email {
+    margin-right: 10px;
+}
+
+.instagram {
+    margin-right: 10px;
+}
